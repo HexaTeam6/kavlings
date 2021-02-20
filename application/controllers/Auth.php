@@ -11,7 +11,8 @@ class Auth extends CI_Controller {
 
     public function index()
     {
-        $this->load->view('landing');
+        // $this->load->view('landing');
+        $this->template->load('template', 'pages/home');
     }
 
     public function masuk()
