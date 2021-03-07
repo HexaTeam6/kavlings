@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class A_DataAngsuran extends CI_Controller {
+class A_TambahAngsuran extends CI_Controller {
 
 	public function __construct()
 	{
@@ -12,10 +12,10 @@ class A_DataAngsuran extends CI_Controller {
 
 	public function index()
 	{
-		$this->template->load('template', 'angsuran/data_angsuran');	
+		$this->template->load('template', 'angsuran/angsuran_baru');	
 	}
 
 }
 
-/* End of file A_DataAngsuran.php */
-/* Location: ./application/controllers/A_DataAngsuran.php */
+/* End of file Angsuran.php */
+/* Location: ./application/controllers/Angsuran.php */

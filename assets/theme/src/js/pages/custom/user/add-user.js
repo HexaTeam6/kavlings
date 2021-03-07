@@ -143,6 +143,16 @@ var KTAddUser = function () {
 								message: 'Website URL is required'
 							}
 						}
+					},
+					nik: {
+						validators: {
+							notEmpty: {
+								message: 'Nomor NIK Wajib Diisi'
+							},
+							phone: {
+								message: 'NIK Tidak Benar, Harap Periksa Lagi!'
+							}
+						}
 					}
 				},
 				plugins: {

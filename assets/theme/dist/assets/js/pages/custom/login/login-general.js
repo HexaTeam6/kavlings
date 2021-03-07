@@ -28,14 +28,14 @@ var KTLogin = function() {
 					username: {
 						validators: {
 							notEmpty: {
-								message: 'Username is required'
+								message: 'Username Tidak Boleh Kosong'
 							}
 						}
 					},
 					password: {
 						validators: {
 							notEmpty: {
-								message: 'Password is required'
+								message: 'Password Tidak Boleh Kosong'
 							}
 						}
 					}
@@ -55,7 +55,7 @@ var KTLogin = function() {
             validation.validate().then(function(status) {
 		        if (status == 'Valid') {
                     swal.fire({
-		                text: "All is cool! Now you submit this form",
+		                text: "Login Berhasil",
 		                icon: "success",
 		                buttonsStyling: false,
 		                confirmButtonText: "Ok, got it!",
@@ -63,11 +63,11 @@ var KTLogin = function() {
     						confirmButton: "btn font-weight-bold btn-light-primary"
     					}
 		            }).then(function() {
-						KTUtil.scrollTop();
+                        window.location = "Home"
 					});
 				} else {
 					swal.fire({
-		                text: "Sorry, looks like there are some errors detected, please try again.",
+		                text: "Maaf Login Gagal, Silahkan coba lagi",
 		                icon: "error",
 		                buttonsStyling: false,
 		                confirmButtonText: "Ok, got it!",
@@ -75,7 +75,7 @@ var KTLogin = function() {
     						confirmButton: "btn font-weight-bold btn-light-primary"
     					}
 		            }).then(function() {
-						KTUtil.scrollTop();
+						window.location = "";
 					});
 				}
 		    });

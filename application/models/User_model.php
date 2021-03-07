@@ -3,17 +3,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class User_model extends CI_Model
 {
-    function getLogin($email, $password){
+    function getLogin($username, $password){
         $sql = "SELECT * FROM login
-                WHERE email=? 
+                WHERE username=? 
                 AND password=MD5(?)";
-        $result = $this->db->query($sql, array($email, $password));
+        $result = $this->db->query($sql, array($username, $password));
         return $result;
     }
 
     function getLoginToken($username, $token){
-        $sql = "SELECT * FROM login
-                WHERE email=? 
+        $sql = "SELECT * FROM tb_login
+                WHERE username=? 
                 AND token=?";
         $result = $this->db->query($sql, array($username, $token));
         return $result;

@@ -95,10 +95,10 @@ var KTAddUser = function () {
 			_formEl,
 			{
 				fields: {
-					firstname: {
+					nama_pelanggan: {
 						validators: {
 							notEmpty: {
-								message: 'First Name is required'
+								message: 'Nama wajib Diisi'
 							}
 						}
 					},
@@ -119,11 +119,10 @@ var KTAddUser = function () {
 					phone: {
 						validators: {
 							notEmpty: {
-								message: 'Phone is required'
+								message: 'Nomor Telepon Wajib Diisi'
 							},
 							phone: {
-								country: 'US',
-								message: 'The value is not a valid US phone number. (e.g 5554443333)'
+								message: 'Nomor Telelpon Tidak Benar'
 							}
 						}
 					},
@@ -141,6 +140,16 @@ var KTAddUser = function () {
 						validators: {
 							notEmpty: {
 								message: 'Website URL is required'
+							}
+						}
+					},
+					nik: {
+						validators: {
+							notEmpty: {
+								message: 'Nomor NIK Wajib Diisi'
+							},
+							nik: {
+								message: 'NIK Tidak Benar, Harap Periksa Lagi!'
 							}
 						}
 					}
@@ -199,10 +208,10 @@ var KTAddUser = function () {
 			_formEl,
 			{
 				fields: {
-					address1: {
+					alamat: {
 						validators: {
 							notEmpty: {
-								message: 'Address is required'
+								message: 'Alamat wajib Diisi'
 							}
 						}
 					},

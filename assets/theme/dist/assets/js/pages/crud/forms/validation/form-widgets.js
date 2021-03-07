@@ -70,12 +70,32 @@ var KTFormWidgetsValidation = function () {
             validator.revalidateField('select');
         });
 
-        // Select2
-        $('#kt_select2').select2({
-            placeholder: "Select a state",
+        // Select Tahap
+        $('#pilih_tahap').select2({
+            placeholder: "Pilih Disini",
         });
 
-        $('#kt_select2').on('change', function(){
+        $('#pilih_tahap').on('change', function(){
+            // Revalidate field
+            validator.revalidateField('select2');
+        });
+
+        // Select Blok
+        $('#pilih_blok').select2({
+            placeholder: "Pilih Disini",
+        });
+
+        $('#pilih_blok').on('change', function(){
+            // Revalidate field
+            validator.revalidateField('select2');
+        });
+
+        // Select Nomor
+        $('#pilih_nomor').select2({
+            placeholder: "Pilih Disini",
+        });
+
+        $('#pilih_nomor').on('change', function(){
             // Revalidate field
             validator.revalidateField('select2');
         });

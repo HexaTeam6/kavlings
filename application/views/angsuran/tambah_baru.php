@@ -1,986 +1,569 @@
-
-<!--begin::Subheader-->
-<div class="subheader py-2 py-lg-6 subheader-transparent" id="kt_subheader">
-	<div class="container d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
-		<!--begin::Info-->
-		<div class="d-flex align-items-center flex-wrap mr-1">
-			<!--begin::Page Heading-->
-			<div class="d-flex align-items-baseline flex-wrap mr-5">
-				<!--begin::Page Title-->
-				<h5 class="text-dark font-weight-bold my-1 mr-5">Wizard 1</h5>
-				<!--end::Page Title-->
-				<!--begin::Breadcrumb-->
-				<ul class="breadcrumb breadcrumb-transparent breadcrumb-dot font-weight-bold p-0 my-2 font-size-sm">
-					<li class="breadcrumb-item text-muted">
-						<a href="" class="text-muted">Pages</a>
-					</li>
-					<li class="breadcrumb-item text-muted">
-						<a href="" class="text-muted">Wizard 1</a>
-					</li>
-				</ul>
-				<!--end::Breadcrumb-->
-			</div>
-			<!--end::Page Heading-->
-		</div>
-		<!--end::Info-->
-		<!--begin::Toolbar-->
-		<div class="d-flex align-items-center">
-			<!--begin::Actions-->
-			<a href="#" class="btn btn-light-primary font-weight-bolder btn-sm">Actions</a>
-			<!--end::Actions-->
-			<!--begin::Dropdown-->
-			<div class="dropdown dropdown-inline" data-toggle="tooltip" title="Quick actions" data-placement="left">
-				<a href="#" class="btn btn-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<span class="svg-icon svg-icon-success svg-icon-2x">
-						<!--begin::Svg Icon | path:assets/media/svg/icons/Files/File-plus.svg-->
-						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-							<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-								<polygon points="0 0 24 0 24 24 0 24" />
-								<path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
-								<path d="M11,14 L9,14 C8.44771525,14 8,13.5522847 8,13 C8,12.4477153 8.44771525,12 9,12 L11,12 L11,10 C11,9.44771525 11.4477153,9 12,9 C12.5522847,9 13,9.44771525 13,10 L13,12 L15,12 C15.5522847,12 16,12.4477153 16,13 C16,13.5522847 15.5522847,14 15,14 L13,14 L13,16 C13,16.5522847 12.5522847,17 12,17 C11.4477153,17 11,16.5522847 11,16 L11,14 Z" fill="#000000" />
-							</g>
-						</svg>
-						<!--end::Svg Icon-->
-					</span>
-				</a>
-				<div class="dropdown-menu dropdown-menu-md dropdown-menu-right p-0 m-0">
-					<!--begin::Navigation-->
-					<ul class="navi navi-hover">
-						<li class="navi-header font-weight-bold py-4">
-							<span class="font-size-lg">Choose Label:</span>
-							<i class="flaticon2-information icon-md text-muted" data-toggle="tooltip" data-placement="right" title="Click to learn more..."></i>
-						</li>
-						<li class="navi-separator mb-3 opacity-70"></li>
-						<li class="navi-item">
-							<a href="#" class="navi-link">
-								<span class="navi-text">
-									<span class="label label-xl label-inline label-light-success">Customer</span>
-								</span>
-							</a>
-						</li>
-						<li class="navi-item">
-							<a href="#" class="navi-link">
-								<span class="navi-text">
-									<span class="label label-xl label-inline label-light-danger">Partner</span>
-								</span>
-							</a>
-						</li>
-						<li class="navi-item">
-							<a href="#" class="navi-link">
-								<span class="navi-text">
-									<span class="label label-xl label-inline label-light-warning">Suplier</span>
-								</span>
-							</a>
-						</li>
-						<li class="navi-item">
-							<a href="#" class="navi-link">
-								<span class="navi-text">
-									<span class="label label-xl label-inline label-light-primary">Member</span>
-								</span>
-							</a>
-						</li>
-						<li class="navi-item">
-							<a href="#" class="navi-link">
-								<span class="navi-text">
-									<span class="label label-xl label-inline label-light-dark">Staff</span>
-								</span>
-							</a>
-						</li>
-						<li class="navi-separator mt-3 opacity-70"></li>
-						<li class="navi-footer py-4">
-							<a class="btn btn-clean font-weight-bold btn-sm" href="#">
-							<i class="ki ki-plus icon-sm"></i>Add new</a>
-						</li>
-					</ul>
-					<!--end::Navigation-->
+	<!--begin::Subheader-->
+	<div class="subheader py-3 py-lg-8 subheader-transparent" id="kt_subheader">
+		<div class="container-fluid d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
+			<!--begin::Details-->
+			<div class="d-flex align-items-center mr-1">
+				<!--begin::Title-->
+				<h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">Angsuran Baru</h5>
+				<!--end::Title-->
+				<!--begin::Separator-->
+				<div class="subheader-separator subheader-separator-ver mt-2 mb-2 mr-5 bg-gray-200"></div>
+				<!--end::Separator-->
+				<!--begin::Search Form-->
+				<div class="d-flex align-items-center" id="kt_subheader_search">
+					<span class="text-dark-50 font-weight-bold" id="kt_subheader_total">* Pastikan Data Pelanggan Sudah Terdaftar</span>
 				</div>
+				<!--end::Search Form-->
 			</div>
-			<!--end::Dropdown-->
+			<!--end::Details--><!--begin::Toolbar-->
+		<div class="d-flex align-items-center flex-wrap">
+
+			<!--begin::Button-->
+			<a href="#" class="btn button-color btn-fixed-height font-weight-bold px-2 px-lg-5 mr-2">
+				<span class="svg-icon svg-icon-lg">
+
+					<!--begin::Svg Icon | path:assets/media/svg/icons/Communication/Add-user.svg-->
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+							<polygon points="0 0 24 0 24 24 0 24" />
+							<path d="M18,8 L16,8 C15.4477153,8 15,7.55228475 15,7 C15,6.44771525 15.4477153,6 16,6 L18,6 L18,4 C18,3.44771525 18.4477153,3 19,3 C19.5522847,3 20,3.44771525 20,4 L20,6 L22,6 C22.5522847,6 23,6.44771525 23,7 C23,7.55228475 22.5522847,8 22,8 L20,8 L20,10 C20,10.5522847 19.5522847,11 19,11 C18.4477153,11 18,10.5522847 18,10 L18,8 Z M9,11 C6.790861,11 5,9.209139 5,7 C5,4.790861 6.790861,3 9,3 C11.209139,3 13,4.790861 13,7 C13,9.209139 11.209139,11 9,11 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+							<path d="M0.00065168429,20.1992055 C0.388258525,15.4265159 4.26191235,13 8.98334134,13 C13.7712164,13 17.7048837,15.2931929 17.9979143,20.2 C18.0095879,20.3954741 17.9979143,21 17.2466999,21 C13.541124,21 8.03472472,21 0.727502227,21 C0.476712155,21 -0.0204617505,20.45918 0.00065168429,20.1992055 Z" fill="#000000" fill-rule="nonzero" />
+						</g>
+					</svg>
+
+					<!--end::Svg Icon-->
+				</span>
+				<span class="d-md-inline">Pelanggan Baru</span>
+			</a>
+
+			<!--end::Button-->
 		</div>
 		<!--end::Toolbar-->
-	</div>
-</div>
-<!--end::Subheader-->
-<!--begin::Entry-->
-<div class="d-flex flex-column-fluid">
-	<!--begin::Container-->
-	<div class="container">
-		<div class="card card-custom">
-			<div class="card-body p-0">
-				<!--begin::Wizard-->
-				<div class="wizard wizard-1" id="kt_wizard" data-wizard-state="step-first" data-wizard-clickable="false">
-					<!--begin::Wizard Nav-->
-					<div class="wizard-nav border-bottom">
-						<div class="wizard-steps p-8 p-lg-10">
-							<!--begin::Wizard Step 1 Nav-->
-							<div class="wizard-step" data-wizard-type="step" data-wizard-state="current">
-								<div class="wizard-label">
-									<i class="wizard-icon flaticon-bus-stop"></i>
-									<h3 class="wizard-title">1. Setup Location</h3>
-								</div>
-								<span class="svg-icon svg-icon-xl wizard-arrow">
-									<!--begin::Svg Icon | path:assets/media/svg/icons/Navigation/Arrow-right.svg-->
-									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-										<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-											<polygon points="0 0 24 0 24 24 0 24" />
-											<rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-90.000000) translate(-12.000000, -12.000000)" x="11" y="5" width="2" height="14" rx="1" />
-											<path d="M9.70710318,15.7071045 C9.31657888,16.0976288 8.68341391,16.0976288 8.29288961,15.7071045 C7.90236532,15.3165802 7.90236532,14.6834152 8.29288961,14.2928909 L14.2928896,8.29289093 C14.6714686,7.914312 15.281055,7.90106637 15.675721,8.26284357 L21.675721,13.7628436 C22.08284,14.136036 22.1103429,14.7686034 21.7371505,15.1757223 C21.3639581,15.5828413 20.7313908,15.6103443 20.3242718,15.2371519 L15.0300721,10.3841355 L9.70710318,15.7071045 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.999999, 11.999997) scale(1, -1) rotate(90.000000) translate(-14.999999, -11.999997)" />
-										</g>
-									</svg>
-									<!--end::Svg Icon-->
-								</span>
-							</div>
-							<!--end::Wizard Step 1 Nav-->
-							<!--begin::Wizard Step 2 Nav-->
-							<div class="wizard-step" data-wizard-type="step">
-								<div class="wizard-label">
-									<i class="wizard-icon flaticon-list"></i>
-									<h3 class="wizard-title">2. Enter Details</h3>
-								</div>
-								<span class="svg-icon svg-icon-xl wizard-arrow">
-									<!--begin::Svg Icon | path:assets/media/svg/icons/Navigation/Arrow-right.svg-->
-									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-										<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-											<polygon points="0 0 24 0 24 24 0 24" />
-											<rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-90.000000) translate(-12.000000, -12.000000)" x="11" y="5" width="2" height="14" rx="1" />
-											<path d="M9.70710318,15.7071045 C9.31657888,16.0976288 8.68341391,16.0976288 8.29288961,15.7071045 C7.90236532,15.3165802 7.90236532,14.6834152 8.29288961,14.2928909 L14.2928896,8.29289093 C14.6714686,7.914312 15.281055,7.90106637 15.675721,8.26284357 L21.675721,13.7628436 C22.08284,14.136036 22.1103429,14.7686034 21.7371505,15.1757223 C21.3639581,15.5828413 20.7313908,15.6103443 20.3242718,15.2371519 L15.0300721,10.3841355 L9.70710318,15.7071045 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.999999, 11.999997) scale(1, -1) rotate(90.000000) translate(-14.999999, -11.999997)" />
-										</g>
-									</svg>
-									<!--end::Svg Icon-->
-								</span>
-							</div>
-							<!--end::Wizard Step 2 Nav-->
-							<!--begin::Wizard Step 3 Nav-->
-							<div class="wizard-step" data-wizard-type="step">
-								<div class="wizard-label">
-									<i class="wizard-icon flaticon-responsive"></i>
-									<h3 class="wizard-title">3. Select Services</h3>
-								</div>
-								<span class="svg-icon svg-icon-xl wizard-arrow">
-									<!--begin::Svg Icon | path:assets/media/svg/icons/Navigation/Arrow-right.svg-->
-									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-										<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-											<polygon points="0 0 24 0 24 24 0 24" />
-											<rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-90.000000) translate(-12.000000, -12.000000)" x="11" y="5" width="2" height="14" rx="1" />
-											<path d="M9.70710318,15.7071045 C9.31657888,16.0976288 8.68341391,16.0976288 8.29288961,15.7071045 C7.90236532,15.3165802 7.90236532,14.6834152 8.29288961,14.2928909 L14.2928896,8.29289093 C14.6714686,7.914312 15.281055,7.90106637 15.675721,8.26284357 L21.675721,13.7628436 C22.08284,14.136036 22.1103429,14.7686034 21.7371505,15.1757223 C21.3639581,15.5828413 20.7313908,15.6103443 20.3242718,15.2371519 L15.0300721,10.3841355 L9.70710318,15.7071045 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.999999, 11.999997) scale(1, -1) rotate(90.000000) translate(-14.999999, -11.999997)" />
-										</g>
-									</svg>
-									<!--end::Svg Icon-->
-								</span>
-							</div>
-							<!--end::Wizard Step 3 Nav-->
-							<!--begin::Wizard Step 4 Nav-->
-							<div class="wizard-step" data-wizard-type="step">
-								<div class="wizard-label">
-									<i class="wizard-icon flaticon-truck"></i>
-									<h3 class="wizard-title">4. Delivery Address</h3>
-								</div>
-								<span class="svg-icon svg-icon-xl wizard-arrow">
-									<!--begin::Svg Icon | path:assets/media/svg/icons/Navigation/Arrow-right.svg-->
-									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-										<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-											<polygon points="0 0 24 0 24 24 0 24" />
-											<rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-90.000000) translate(-12.000000, -12.000000)" x="11" y="5" width="2" height="14" rx="1" />
-											<path d="M9.70710318,15.7071045 C9.31657888,16.0976288 8.68341391,16.0976288 8.29288961,15.7071045 C7.90236532,15.3165802 7.90236532,14.6834152 8.29288961,14.2928909 L14.2928896,8.29289093 C14.6714686,7.914312 15.281055,7.90106637 15.675721,8.26284357 L21.675721,13.7628436 C22.08284,14.136036 22.1103429,14.7686034 21.7371505,15.1757223 C21.3639581,15.5828413 20.7313908,15.6103443 20.3242718,15.2371519 L15.0300721,10.3841355 L9.70710318,15.7071045 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.999999, 11.999997) scale(1, -1) rotate(90.000000) translate(-14.999999, -11.999997)" />
-										</g>
-									</svg>
-									<!--end::Svg Icon-->
-								</span>
-							</div>
-							<!--end::Wizard Step 4 Nav-->
-							<!--begin::Wizard Step 5 Nav-->
-							<div class="wizard-step" data-wizard-type="step">
-								<div class="wizard-label">
-									<i class="wizard-icon flaticon-globe"></i>
-									<h3 class="wizard-title">5. Review and Submit</h3>
-								</div>
-								<span class="svg-icon svg-icon-xl wizard-arrow last">
-									<!--begin::Svg Icon | path:assets/media/svg/icons/Navigation/Arrow-right.svg-->
-									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-										<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-											<polygon points="0 0 24 0 24 24 0 24" />
-											<rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-90.000000) translate(-12.000000, -12.000000)" x="11" y="5" width="2" height="14" rx="1" />
-											<path d="M9.70710318,15.7071045 C9.31657888,16.0976288 8.68341391,16.0976288 8.29288961,15.7071045 C7.90236532,15.3165802 7.90236532,14.6834152 8.29288961,14.2928909 L14.2928896,8.29289093 C14.6714686,7.914312 15.281055,7.90106637 15.675721,8.26284357 L21.675721,13.7628436 C22.08284,14.136036 22.1103429,14.7686034 21.7371505,15.1757223 C21.3639581,15.5828413 20.7313908,15.6103443 20.3242718,15.2371519 L15.0300721,10.3841355 L9.70710318,15.7071045 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.999999, 11.999997) scale(1, -1) rotate(90.000000) translate(-14.999999, -11.999997)" />
-										</g>
-									</svg>
-									<!--end::Svg Icon-->
-								</span>
-							</div>
-							<!--end::Wizard Step 5 Nav-->
-						</div>
-					</div>
-					<!--end::Wizard Nav-->
-					<!--begin::Wizard Body-->
-					<div class="row justify-content-center my-10 px-8 my-lg-15 px-lg-10">
-						<div class="col-xl-12 col-xxl-7">
-							<!--begin::Wizard Form-->
-							<form class="form" id="kt_form">
-								<!--begin::Wizard Step 1-->
-								<div class="pb-5" data-wizard-type="step-content" data-wizard-state="current">
-									<h3 class="mb-10 font-weight-bold text-dark">Setup Your Current Location</h3>
-									<!--begin::Input-->
-									<div class="form-group">
-										<label>Address Line 1</label>
-										<input type="text" class="form-control form-control-solid form-control-lg" name="address1" placeholder="Address Line 1" value="Address Line 1" />
-										<span class="form-text text-muted">Please enter your Address.</span>
-									</div>
-									<!--end::Input-->
-									<!--begin::Input-->
-									<div class="form-group">
-										<label>Address Line 2</label>
-										<input type="text" class="form-control form-control-solid form-control-lg" name="address2" placeholder="Address Line 2" value="Address Line 2" />
-										<span class="form-text text-muted">Please enter your Address.</span>
-									</div>
-									<!--end::Input-->
-									<div class="row">
-										<div class="col-xl-6">
-											<!--begin::Input-->
-											<div class="form-group">
-												<label>Postcode</label>
-												<input type="text" class="form-control form-control-solid form-control-lg" name="postcode" placeholder="Postcode" value="3000" />
-												<span class="form-text text-muted">Please enter your Postcode.</span>
-											</div>
-											<!--end::Input-->
-										</div>
-										<div class="col-xl-6">
-											<!--begin::Input-->
-											<div class="form-group">
-												<label>City</label>
-												<input type="text" class="form-control form-control-solid form-control-lg" name="city" placeholder="City" value="Melbourne" />
-												<span class="form-text text-muted">Please enter your City.</span>
-											</div>
-											<!--end::Input-->
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-xl-6">
-											<!--begin::Input-->
-											<div class="form-group">
-												<label>State</label>
-												<input type="text" class="form-control form-control-solid form-control-lg" name="state" placeholder="State" value="VIC" />
-												<span class="form-text text-muted">Please enter your State.</span>
-											</div>
-											<!--end::Input-->
-										</div>
-										<div class="col-xl-6">
-											<!--begin::Select-->
-											<div class="form-group">
-												<label>Country</label>
-												<select name="country" class="form-control form-control-solid form-control-lg">
-													<option value="">Select</option>
-													<option value="AF">Afghanistan</option>
-													<option value="AX">Åland Islands</option>
-													<option value="AL">Albania</option>
-													<option value="DZ">Algeria</option>
-													<option value="AS">American Samoa</option>
-													<option value="AD">Andorra</option>
-													<option value="AO">Angola</option>
-													<option value="AI">Anguilla</option>
-													<option value="AQ">Antarctica</option>
-													<option value="AG">Antigua and Barbuda</option>
-													<option value="AR">Argentina</option>
-													<option value="AM">Armenia</option>
-													<option value="AW">Aruba</option>
-													<option value="AU" selected="selected">Australia</option>
-													<option value="AT">Austria</option>
-													<option value="AZ">Azerbaijan</option>
-													<option value="BS">Bahamas</option>
-													<option value="BH">Bahrain</option>
-													<option value="BD">Bangladesh</option>
-													<option value="BB">Barbados</option>
-													<option value="BY">Belarus</option>
-													<option value="BE">Belgium</option>
-													<option value="BZ">Belize</option>
-													<option value="BJ">Benin</option>
-													<option value="BM">Bermuda</option>
-													<option value="BT">Bhutan</option>
-													<option value="BO">Bolivia, Plurinational State of</option>
-													<option value="BQ">Bonaire, Sint Eustatius and Saba</option>
-													<option value="BA">Bosnia and Herzegovina</option>
-													<option value="BW">Botswana</option>
-													<option value="BV">Bouvet Island</option>
-													<option value="BR">Brazil</option>
-													<option value="IO">British Indian Ocean Territory</option>
-													<option value="BN">Brunei Darussalam</option>
-													<option value="BG">Bulgaria</option>
-													<option value="BF">Burkina Faso</option>
-													<option value="BI">Burundi</option>
-													<option value="KH">Cambodia</option>
-													<option value="CM">Cameroon</option>
-													<option value="CA">Canada</option>
-													<option value="CV">Cape Verde</option>
-													<option value="KY">Cayman Islands</option>
-													<option value="CF">Central African Republic</option>
-													<option value="TD">Chad</option>
-													<option value="CL">Chile</option>
-													<option value="CN">China</option>
-													<option value="CX">Christmas Island</option>
-													<option value="CC">Cocos (Keeling) Islands</option>
-													<option value="CO">Colombia</option>
-													<option value="KM">Comoros</option>
-													<option value="CG">Congo</option>
-													<option value="CD">Congo, the Democratic Republic of the</option>
-													<option value="CK">Cook Islands</option>
-													<option value="CR">Costa Rica</option>
-													<option value="CI">Côte d'Ivoire</option>
-													<option value="HR">Croatia</option>
-													<option value="CU">Cuba</option>
-													<option value="CW">Curaçao</option>
-													<option value="CY">Cyprus</option>
-													<option value="CZ">Czech Republic</option>
-													<option value="DK">Denmark</option>
-													<option value="DJ">Djibouti</option>
-													<option value="DM">Dominica</option>
-													<option value="DO">Dominican Republic</option>
-													<option value="EC">Ecuador</option>
-													<option value="EG">Egypt</option>
-													<option value="SV">El Salvador</option>
-													<option value="GQ">Equatorial Guinea</option>
-													<option value="ER">Eritrea</option>
-													<option value="EE">Estonia</option>
-													<option value="ET">Ethiopia</option>
-													<option value="FK">Falkland Islands (Malvinas)</option>
-													<option value="FO">Faroe Islands</option>
-													<option value="FJ">Fiji</option>
-													<option value="FI">Finland</option>
-													<option value="FR">France</option>
-													<option value="GF">French Guiana</option>
-													<option value="PF">French Polynesia</option>
-													<option value="TF">French Southern Territories</option>
-													<option value="GA">Gabon</option>
-													<option value="GM">Gambia</option>
-													<option value="GE">Georgia</option>
-													<option value="DE">Germany</option>
-													<option value="GH">Ghana</option>
-													<option value="GI">Gibraltar</option>
-													<option value="GR">Greece</option>
-													<option value="GL">Greenland</option>
-													<option value="GD">Grenada</option>
-													<option value="GP">Guadeloupe</option>
-													<option value="GU">Guam</option>
-													<option value="GT">Guatemala</option>
-													<option value="GG">Guernsey</option>
-													<option value="GN">Guinea</option>
-													<option value="GW">Guinea-Bissau</option>
-													<option value="GY">Guyana</option>
-													<option value="HT">Haiti</option>
-													<option value="HM">Heard Island and McDonald Islands</option>
-													<option value="VA">Holy See (Vatican City State)</option>
-													<option value="HN">Honduras</option>
-													<option value="HK">Hong Kong</option>
-													<option value="HU">Hungary</option>
-													<option value="IS">Iceland</option>
-													<option value="IN">India</option>
-													<option value="ID">Indonesia</option>
-													<option value="IR">Iran, Islamic Republic of</option>
-													<option value="IQ">Iraq</option>
-													<option value="IE">Ireland</option>
-													<option value="IM">Isle of Man</option>
-													<option value="IL">Israel</option>
-													<option value="IT">Italy</option>
-													<option value="JM">Jamaica</option>
-													<option value="JP">Japan</option>
-													<option value="JE">Jersey</option>
-													<option value="JO">Jordan</option>
-													<option value="KZ">Kazakhstan</option>
-													<option value="KE">Kenya</option>
-													<option value="KI">Kiribati</option>
-													<option value="KP">Korea, Democratic People's Republic of</option>
-													<option value="KR">Korea, Republic of</option>
-													<option value="KW">Kuwait</option>
-													<option value="KG">Kyrgyzstan</option>
-													<option value="LA">Lao People's Democratic Republic</option>
-													<option value="LV">Latvia</option>
-													<option value="LB">Lebanon</option>
-													<option value="LS">Lesotho</option>
-													<option value="LR">Liberia</option>
-													<option value="LY">Libya</option>
-													<option value="LI">Liechtenstein</option>
-													<option value="LT">Lithuania</option>
-													<option value="LU">Luxembourg</option>
-													<option value="MO">Macao</option>
-													<option value="MK">Macedonia, the former Yugoslav Republic of</option>
-													<option value="MG">Madagascar</option>
-													<option value="MW">Malawi</option>
-													<option value="MY">Malaysia</option>
-													<option value="MV">Maldives</option>
-													<option value="ML">Mali</option>
-													<option value="MT">Malta</option>
-													<option value="MH">Marshall Islands</option>
-													<option value="MQ">Martinique</option>
-													<option value="MR">Mauritania</option>
-													<option value="MU">Mauritius</option>
-													<option value="YT">Mayotte</option>
-													<option value="MX">Mexico</option>
-													<option value="FM">Micronesia, Federated States of</option>
-													<option value="MD">Moldova, Republic of</option>
-													<option value="MC">Monaco</option>
-													<option value="MN">Mongolia</option>
-													<option value="ME">Montenegro</option>
-													<option value="MS">Montserrat</option>
-													<option value="MA">Morocco</option>
-													<option value="MZ">Mozambique</option>
-													<option value="MM">Myanmar</option>
-													<option value="NA">Namibia</option>
-													<option value="NR">Nauru</option>
-													<option value="NP">Nepal</option>
-													<option value="NL">Netherlands</option>
-													<option value="NC">New Caledonia</option>
-													<option value="NZ">New Zealand</option>
-													<option value="NI">Nicaragua</option>
-													<option value="NE">Niger</option>
-													<option value="NG">Nigeria</option>
-													<option value="NU">Niue</option>
-													<option value="NF">Norfolk Island</option>
-													<option value="MP">Northern Mariana Islands</option>
-													<option value="NO">Norway</option>
-													<option value="OM">Oman</option>
-													<option value="PK">Pakistan</option>
-													<option value="PW">Palau</option>
-													<option value="PS">Palestinian Territory, Occupied</option>
-													<option value="PA">Panama</option>
-													<option value="PG">Papua New Guinea</option>
-													<option value="PY">Paraguay</option>
-													<option value="PE">Peru</option>
-													<option value="PH">Philippines</option>
-													<option value="PN">Pitcairn</option>
-													<option value="PL">Poland</option>
-													<option value="PT">Portugal</option>
-													<option value="PR">Puerto Rico</option>
-													<option value="QA">Qatar</option>
-													<option value="RE">Réunion</option>
-													<option value="RO">Romania</option>
-													<option value="RU">Russian Federation</option>
-													<option value="RW">Rwanda</option>
-													<option value="BL">Saint Barthélemy</option>
-													<option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
-													<option value="KN">Saint Kitts and Nevis</option>
-													<option value="LC">Saint Lucia</option>
-													<option value="MF">Saint Martin (French part)</option>
-													<option value="PM">Saint Pierre and Miquelon</option>
-													<option value="VC">Saint Vincent and the Grenadines</option>
-													<option value="WS">Samoa</option>
-													<option value="SM">San Marino</option>
-													<option value="ST">Sao Tome and Principe</option>
-													<option value="SA">Saudi Arabia</option>
-													<option value="SN">Senegal</option>
-													<option value="RS">Serbia</option>
-													<option value="SC">Seychelles</option>
-													<option value="SL">Sierra Leone</option>
-													<option value="SG">Singapore</option>
-													<option value="SX">Sint Maarten (Dutch part)</option>
-													<option value="SK">Slovakia</option>
-													<option value="SI">Slovenia</option>
-													<option value="SB">Solomon Islands</option>
-													<option value="SO">Somalia</option>
-													<option value="ZA">South Africa</option>
-													<option value="GS">South Georgia and the South Sandwich Islands</option>
-													<option value="SS">South Sudan</option>
-													<option value="ES">Spain</option>
-													<option value="LK">Sri Lanka</option>
-													<option value="SD">Sudan</option>
-													<option value="SR">Suriname</option>
-													<option value="SJ">Svalbard and Jan Mayen</option>
-													<option value="SZ">Swaziland</option>
-													<option value="SE">Sweden</option>
-													<option value="CH">Switzerland</option>
-													<option value="SY">Syrian Arab Republic</option>
-													<option value="TW">Taiwan, Province of China</option>
-													<option value="TJ">Tajikistan</option>
-													<option value="TZ">Tanzania, United Republic of</option>
-													<option value="TH">Thailand</option>
-													<option value="TL">Timor-Leste</option>
-													<option value="TG">Togo</option>
-													<option value="TK">Tokelau</option>
-													<option value="TO">Tonga</option>
-													<option value="TT">Trinidad and Tobago</option>
-													<option value="TN">Tunisia</option>
-													<option value="TR">Turkey</option>
-													<option value="TM">Turkmenistan</option>
-													<option value="TC">Turks and Caicos Islands</option>
-													<option value="TV">Tuvalu</option>
-													<option value="UG">Uganda</option>
-													<option value="UA">Ukraine</option>
-													<option value="AE">United Arab Emirates</option>
-													<option value="GB">United Kingdom</option>
-													<option value="US">United States</option>
-													<option value="UM">United States Minor Outlying Islands</option>
-													<option value="UY">Uruguay</option>
-													<option value="UZ">Uzbekistan</option>
-													<option value="VU">Vanuatu</option>
-													<option value="VE">Venezuela, Bolivarian Republic of</option>
-													<option value="VN">Viet Nam</option>
-													<option value="VG">Virgin Islands, British</option>
-													<option value="VI">Virgin Islands, U.S.</option>
-													<option value="WF">Wallis and Futuna</option>
-													<option value="EH">Western Sahara</option>
-													<option value="YE">Yemen</option>
-													<option value="ZM">Zambia</option>
-													<option value="ZW">Zimbabwe</option>
-												</select>
-											</div>
-											<!--end::Select-->
-										</div>
-									</div>
-								</div>
-								<!--end::Wizard Step 1-->
-								<!--begin::Wizard Step 2-->
-								<div class="pb-5" data-wizard-type="step-content">
-									<h4 class="mb-10 font-weight-bold text-dark">Enter the Details of your Delivery</h4>
-									<!--begin::Input-->
-									<div class="form-group">
-										<label>Package Details</label>
-										<input type="text" class="form-control form-control-solid form-control-lg" name="package" placeholder="Package Details" value="Complete Workstation (Monitor, Computer, Keyboard &amp; Mouse)" />
-										<span class="form-text text-muted">Please enter your Pakcage Details.</span>
-									</div>
-									<!--end::Input-->
-									<!--begin::Input-->
-									<div class="form-group">
-										<label>Package Weight in KG</label>
-										<input type="text" class="form-control form-control-solid form-control-lg" name="weight" placeholder="Package Weight" value="25" />
-										<span class="form-text text-muted">Please enter your Package Weight in KG.</span>
-									</div>
-									<!--end::Input-->
-									<div class="row">
-										<div class="col-xl-4">
-											<!--begin::Input-->
-											<div class="form-group">
-												<label>Package Width in CM</label>
-												<input type="text" class="form-control form-control-solid form-control-lg" name="width" placeholder="Package Width" value="110" />
-												<span class="form-text text-muted">Please enter your Package Width in CM.</span>
-											</div>
-											<!--end::Input-->
-										</div>
-										<div class="col-xl-4">
-											<!--begin::Input-->
-											<div class="form-group">
-												<label>Package Height in CM</label>
-												<input type="text" class="form-control form-control-solid form-control-lg" name="height" placeholder="Package Height" value="90" />
-												<span class="form-text text-muted">Please enter your Package Height in CM.</span>
-											</div>
-											<!--end::Input-->
-										</div>
-										<div class="col-xl-4">
-											<!--begin::Input-->
-											<div class="form-group">
-												<label>Package Length in CM</label>
-												<input type="text" class="form-control form-control-solid form-control-lg" name="packagelength" placeholder="Package Length" value="150" />
-												<span class="form-text text-muted">Please enter your Package Length in CM.</span>
-											</div>
-											<!--end::Input-->
-										</div>
-									</div>
-								</div>
-								<!--end::Wizard Step 2-->
-								<!--begin::Wizard Step 3-->
-								<div class="pb-5" data-wizard-type="step-content">
-									<h4 class="mb-10 font-weight-bold text-dark">Select your Services</h4>
-									<!--begin::Select-->
-									<div class="form-group">
-										<label>Delivery Type</label>
-										<select name="delivery" class="form-control form-control-solid form-control-lg">
-											<option value="">Select a Service Type Option</option>
-											<option value="overnight" selected="selected">Overnight Delivery (within 48 hours)</option>
-											<option value="express">Express Delivery (within 5 working days)</option>
-											<option value="basic">Basic Delivery (within 5 - 10 working days)</option>
-										</select>
-									</div>
-									<!--end::Select-->
-									<!--begin::Select-->
-									<div class="form-group">
-										<label>Packaging Type</label>
-										<select name="packaging" class="form-control form-control-solid form-control-lg">
-											<option value="">Select a Packaging Type Option</option>
-											<option value="regular" selected="selected">Regular Packaging</option>
-											<option value="oversized">Oversized Packaging</option>
-											<option value="fragile">Fragile Packaging</option>
-											<option value="frozen">Frozen Packaging</option>
-										</select>
-									</div>
-									<!--end::Select-->
-									<!--begin::Select-->
-									<div class="form-group">
-										<label>Preferred Delivery Window</label>
-										<select name="preferreddelivery" class="form-control form-control-solid form-control-lg">
-											<option value="">Select a Preferred Delivery Option</option>
-											<option value="morning" selected="selected">Morning Delivery (8:00AM - 11:00AM)</option>
-											<option value="afternoon">Afternoon Delivery (11:00AM - 3:00PM)</option>
-											<option value="evening">Evening Delivery (3:00PM - 7:00PM)</option>
-										</select>
-									</div>
-									<!--end::Select-->
-								</div>
-								<!--end::Wizard Step 3-->
-								<!--begin::Wizard Step 4-->
-								<div class="pb-5" data-wizard-type="step-content">
-									<h4 class="mb-10 font-weight-bold text-dark">Setup Your Delivery Location</h4>
-									<!--begin::Input-->
-									<div class="form-group">
-										<label>Address Line 1</label>
-										<input type="text" class="form-control form-control-solid form-control-lg" name="locaddress1" placeholder="Address Line 1" value="Address Line 1" />
-										<span class="form-text text-muted">Please enter your Address.</span>
-									</div>
-									<!--end::Input-->
-									<!--begin::Input-->
-									<div class="form-group">
-										<label>Address Line 2</label>
-										<input type="text" class="form-control form-control-solid form-control-lg" name="locaddress2" placeholder="Address Line 2" value="Address Line 2" />
-										<span class="form-text text-muted">Please enter your Address.</span>
-									</div>
-									<!--end::Input-->
-									<div class="row">
-										<div class="col-xl-6">
-											<!--begin::Input-->
-											<div class="form-group">
-												<label>Postcode</label>
-												<input type="text" class="form-control form-control-solid form-control-lg" name="locpostcode" placeholder="Postcode" value="3072" />
-												<span class="form-text text-muted">Please enter your Postcode.</span>
-											</div>
-											<!--end::Input-->
-										</div>
-										<div class="col-xl-6">
-											<!--begin::Input-->
-											<div class="form-group">
-												<label>City</label>
-												<input type="text" class="form-control form-control-solid form-control-lg" name="loccity" placeholder="City" value="Preston" />
-												<span class="form-text text-muted">Please enter your City.</span>
-											</div>
-											<!--end::Input-->
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-xl-6">
-											<!--begin::Input-->
-											<div class="form-group">
-												<label>State</label>
-												<input type="text" class="form-control form-control-solid form-control-lg" name="locstate" placeholder="State" value="VIC" />
-												<span class="form-text text-muted">Please enter your State.</span>
-											</div>
-											<!--end::Input-->
-										</div>
-										<div class="col-xl-6">
-											<!--begin::Select-->
-											<div class="form-group">
-												<label>Country</label>
-												<select name="loccountry" class="form-control form-control-solid form-control-lg">
-													<option value="">Select</option>
-													<option value="AF">Afghanistan</option>
-													<option value="AX">Åland Islands</option>
-													<option value="AL">Albania</option>
-													<option value="DZ">Algeria</option>
-													<option value="AS">American Samoa</option>
-													<option value="AD">Andorra</option>
-													<option value="AO">Angola</option>
-													<option value="AI">Anguilla</option>
-													<option value="AQ">Antarctica</option>
-													<option value="AG">Antigua and Barbuda</option>
-													<option value="AR">Argentina</option>
-													<option value="AM">Armenia</option>
-													<option value="AW">Aruba</option>
-													<option value="AU" selected="selected">Australia</option>
-													<option value="AT">Austria</option>
-													<option value="AZ">Azerbaijan</option>
-													<option value="BS">Bahamas</option>
-													<option value="BH">Bahrain</option>
-													<option value="BD">Bangladesh</option>
-													<option value="BB">Barbados</option>
-													<option value="BY">Belarus</option>
-													<option value="BE">Belgium</option>
-													<option value="BZ">Belize</option>
-													<option value="BJ">Benin</option>
-													<option value="BM">Bermuda</option>
-													<option value="BT">Bhutan</option>
-													<option value="BO">Bolivia, Plurinational State of</option>
-													<option value="BQ">Bonaire, Sint Eustatius and Saba</option>
-													<option value="BA">Bosnia and Herzegovina</option>
-													<option value="BW">Botswana</option>
-													<option value="BV">Bouvet Island</option>
-													<option value="BR">Brazil</option>
-													<option value="IO">British Indian Ocean Territory</option>
-													<option value="BN">Brunei Darussalam</option>
-													<option value="BG">Bulgaria</option>
-													<option value="BF">Burkina Faso</option>
-													<option value="BI">Burundi</option>
-													<option value="KH">Cambodia</option>
-													<option value="CM">Cameroon</option>
-													<option value="CA">Canada</option>
-													<option value="CV">Cape Verde</option>
-													<option value="KY">Cayman Islands</option>
-													<option value="CF">Central African Republic</option>
-													<option value="TD">Chad</option>
-													<option value="CL">Chile</option>
-													<option value="CN">China</option>
-													<option value="CX">Christmas Island</option>
-													<option value="CC">Cocos (Keeling) Islands</option>
-													<option value="CO">Colombia</option>
-													<option value="KM">Comoros</option>
-													<option value="CG">Congo</option>
-													<option value="CD">Congo, the Democratic Republic of the</option>
-													<option value="CK">Cook Islands</option>
-													<option value="CR">Costa Rica</option>
-													<option value="CI">Côte d'Ivoire</option>
-													<option value="HR">Croatia</option>
-													<option value="CU">Cuba</option>
-													<option value="CW">Curaçao</option>
-													<option value="CY">Cyprus</option>
-													<option value="CZ">Czech Republic</option>
-													<option value="DK">Denmark</option>
-													<option value="DJ">Djibouti</option>
-													<option value="DM">Dominica</option>
-													<option value="DO">Dominican Republic</option>
-													<option value="EC">Ecuador</option>
-													<option value="EG">Egypt</option>
-													<option value="SV">El Salvador</option>
-													<option value="GQ">Equatorial Guinea</option>
-													<option value="ER">Eritrea</option>
-													<option value="EE">Estonia</option>
-													<option value="ET">Ethiopia</option>
-													<option value="FK">Falkland Islands (Malvinas)</option>
-													<option value="FO">Faroe Islands</option>
-													<option value="FJ">Fiji</option>
-													<option value="FI">Finland</option>
-													<option value="FR">France</option>
-													<option value="GF">French Guiana</option>
-													<option value="PF">French Polynesia</option>
-													<option value="TF">French Southern Territories</option>
-													<option value="GA">Gabon</option>
-													<option value="GM">Gambia</option>
-													<option value="GE">Georgia</option>
-													<option value="DE">Germany</option>
-													<option value="GH">Ghana</option>
-													<option value="GI">Gibraltar</option>
-													<option value="GR">Greece</option>
-													<option value="GL">Greenland</option>
-													<option value="GD">Grenada</option>
-													<option value="GP">Guadeloupe</option>
-													<option value="GU">Guam</option>
-													<option value="GT">Guatemala</option>
-													<option value="GG">Guernsey</option>
-													<option value="GN">Guinea</option>
-													<option value="GW">Guinea-Bissau</option>
-													<option value="GY">Guyana</option>
-													<option value="HT">Haiti</option>
-													<option value="HM">Heard Island and McDonald Islands</option>
-													<option value="VA">Holy See (Vatican City State)</option>
-													<option value="HN">Honduras</option>
-													<option value="HK">Hong Kong</option>
-													<option value="HU">Hungary</option>
-													<option value="IS">Iceland</option>
-													<option value="IN">India</option>
-													<option value="ID">Indonesia</option>
-													<option value="IR">Iran, Islamic Republic of</option>
-													<option value="IQ">Iraq</option>
-													<option value="IE">Ireland</option>
-													<option value="IM">Isle of Man</option>
-													<option value="IL">Israel</option>
-													<option value="IT">Italy</option>
-													<option value="JM">Jamaica</option>
-													<option value="JP">Japan</option>
-													<option value="JE">Jersey</option>
-													<option value="JO">Jordan</option>
-													<option value="KZ">Kazakhstan</option>
-													<option value="KE">Kenya</option>
-													<option value="KI">Kiribati</option>
-													<option value="KP">Korea, Democratic People's Republic of</option>
-													<option value="KR">Korea, Republic of</option>
-													<option value="KW">Kuwait</option>
-													<option value="KG">Kyrgyzstan</option>
-													<option value="LA">Lao People's Democratic Republic</option>
-													<option value="LV">Latvia</option>
-													<option value="LB">Lebanon</option>
-													<option value="LS">Lesotho</option>
-													<option value="LR">Liberia</option>
-													<option value="LY">Libya</option>
-													<option value="LI">Liechtenstein</option>
-													<option value="LT">Lithuania</option>
-													<option value="LU">Luxembourg</option>
-													<option value="MO">Macao</option>
-													<option value="MK">Macedonia, the former Yugoslav Republic of</option>
-													<option value="MG">Madagascar</option>
-													<option value="MW">Malawi</option>
-													<option value="MY">Malaysia</option>
-													<option value="MV">Maldives</option>
-													<option value="ML">Mali</option>
-													<option value="MT">Malta</option>
-													<option value="MH">Marshall Islands</option>
-													<option value="MQ">Martinique</option>
-													<option value="MR">Mauritania</option>
-													<option value="MU">Mauritius</option>
-													<option value="YT">Mayotte</option>
-													<option value="MX">Mexico</option>
-													<option value="FM">Micronesia, Federated States of</option>
-													<option value="MD">Moldova, Republic of</option>
-													<option value="MC">Monaco</option>
-													<option value="MN">Mongolia</option>
-													<option value="ME">Montenegro</option>
-													<option value="MS">Montserrat</option>
-													<option value="MA">Morocco</option>
-													<option value="MZ">Mozambique</option>
-													<option value="MM">Myanmar</option>
-													<option value="NA">Namibia</option>
-													<option value="NR">Nauru</option>
-													<option value="NP">Nepal</option>
-													<option value="NL">Netherlands</option>
-													<option value="NC">New Caledonia</option>
-													<option value="NZ">New Zealand</option>
-													<option value="NI">Nicaragua</option>
-													<option value="NE">Niger</option>
-													<option value="NG">Nigeria</option>
-													<option value="NU">Niue</option>
-													<option value="NF">Norfolk Island</option>
-													<option value="MP">Northern Mariana Islands</option>
-													<option value="NO">Norway</option>
-													<option value="OM">Oman</option>
-													<option value="PK">Pakistan</option>
-													<option value="PW">Palau</option>
-													<option value="PS">Palestinian Territory, Occupied</option>
-													<option value="PA">Panama</option>
-													<option value="PG">Papua New Guinea</option>
-													<option value="PY">Paraguay</option>
-													<option value="PE">Peru</option>
-													<option value="PH">Philippines</option>
-													<option value="PN">Pitcairn</option>
-													<option value="PL">Poland</option>
-													<option value="PT">Portugal</option>
-													<option value="PR">Puerto Rico</option>
-													<option value="QA">Qatar</option>
-													<option value="RE">Réunion</option>
-													<option value="RO">Romania</option>
-													<option value="RU">Russian Federation</option>
-													<option value="RW">Rwanda</option>
-													<option value="BL">Saint Barthélemy</option>
-													<option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
-													<option value="KN">Saint Kitts and Nevis</option>
-													<option value="LC">Saint Lucia</option>
-													<option value="MF">Saint Martin (French part)</option>
-													<option value="PM">Saint Pierre and Miquelon</option>
-													<option value="VC">Saint Vincent and the Grenadines</option>
-													<option value="WS">Samoa</option>
-													<option value="SM">San Marino</option>
-													<option value="ST">Sao Tome and Principe</option>
-													<option value="SA">Saudi Arabia</option>
-													<option value="SN">Senegal</option>
-													<option value="RS">Serbia</option>
-													<option value="SC">Seychelles</option>
-													<option value="SL">Sierra Leone</option>
-													<option value="SG">Singapore</option>
-													<option value="SX">Sint Maarten (Dutch part)</option>
-													<option value="SK">Slovakia</option>
-													<option value="SI">Slovenia</option>
-													<option value="SB">Solomon Islands</option>
-													<option value="SO">Somalia</option>
-													<option value="ZA">South Africa</option>
-													<option value="GS">South Georgia and the South Sandwich Islands</option>
-													<option value="SS">South Sudan</option>
-													<option value="ES">Spain</option>
-													<option value="LK">Sri Lanka</option>
-													<option value="SD">Sudan</option>
-													<option value="SR">Suriname</option>
-													<option value="SJ">Svalbard and Jan Mayen</option>
-													<option value="SZ">Swaziland</option>
-													<option value="SE">Sweden</option>
-													<option value="CH">Switzerland</option>
-													<option value="SY">Syrian Arab Republic</option>
-													<option value="TW">Taiwan, Province of China</option>
-													<option value="TJ">Tajikistan</option>
-													<option value="TZ">Tanzania, United Republic of</option>
-													<option value="TH">Thailand</option>
-													<option value="TL">Timor-Leste</option>
-													<option value="TG">Togo</option>
-													<option value="TK">Tokelau</option>
-													<option value="TO">Tonga</option>
-													<option value="TT">Trinidad and Tobago</option>
-													<option value="TN">Tunisia</option>
-													<option value="TR">Turkey</option>
-													<option value="TM">Turkmenistan</option>
-													<option value="TC">Turks and Caicos Islands</option>
-													<option value="TV">Tuvalu</option>
-													<option value="UG">Uganda</option>
-													<option value="UA">Ukraine</option>
-													<option value="AE">United Arab Emirates</option>
-													<option value="GB">United Kingdom</option>
-													<option value="US">United States</option>
-													<option value="UM">United States Minor Outlying Islands</option>
-													<option value="UY">Uruguay</option>
-													<option value="UZ">Uzbekistan</option>
-													<option value="VU">Vanuatu</option>
-													<option value="VE">Venezuela, Bolivarian Republic of</option>
-													<option value="VN">Viet Nam</option>
-													<option value="VG">Virgin Islands, British</option>
-													<option value="VI">Virgin Islands, U.S.</option>
-													<option value="WF">Wallis and Futuna</option>
-													<option value="EH">Western Sahara</option>
-													<option value="YE">Yemen</option>
-													<option value="ZM">Zambia</option>
-													<option value="ZW">Zimbabwe</option>
-												</select>
-											</div>
-											<!--end::Select-->
-										</div>
-									</div>
-								</div>
-								<!--end::Wizard Step 4-->
-								<!--begin::Wizard Step 5-->
-								<div class="pb-5" data-wizard-type="step-content">
-									<!--begin::Section-->
-									<h4 class="mb-10 font-weight-bold text-dark">Review your Details and Submit</h4>
-									<h6 class="font-weight-bolder mb-3">Current Address:</h6>
-									<div class="text-dark-50 line-height-lg">
-										<div>Address Line 1</div>
-										<div>Address Line 2</div>
-										<div>Melbourne 3000, VIC, Australia</div>
-									</div>
-									<div class="separator separator-dashed my-5"></div>
-									<!--end::Section-->
-									<!--begin::Section-->
-									<h6 class="font-weight-bolder mb-3">Delivery Details:</h6>
-									<div class="text-dark-50 line-height-lg">
-										<div>Package: Complete Workstation (Monitor, Computer, Keyboard &amp; Mouse)</div>
-										<div>Weight: 25kg</div>
-										<div>Dimensions: 110cm (w) x 90cm (h) x 150cm (L)</div>
-									</div>
-									<div class="separator separator-dashed my-5"></div>
-									<!--end::Section-->
-									<!--begin::Section-->
-									<h6 class="font-weight-bolder mb-3">Delivery Service Type:</h6>
-									<div class="text-dark-50 line-height-lg">
-										<div>Overnight Delivery with Regular Packaging</div>
-										<div>Preferred Morning (8:00AM - 11:00AM) Delivery</div>
-									</div>
-									<div class="separator separator-dashed my-5"></div>
-									<!--end::Section-->
-									<!--begin::Section-->
-									<h6 class="font-weight-bolder mb-3">Delivery Address:</h6>
-									<div class="text-dark-50 line-height-lg">
-										<div>Address Line 1</div>
-										<div>Address Line 2</div>
-										<div>Preston 3072, VIC, Australia</div>
-									</div>
-									<!--end::Section-->
-								</div>
-								<!--end::Wizard Step 5-->
-								<!--begin::Wizard Actions-->
-								<div class="d-flex justify-content-between border-top mt-5 pt-10">
-									<div class="mr-2">
-										<button type="button" class="btn btn-light-primary font-weight-bolder text-uppercase px-9 py-4" data-wizard-type="action-prev">Previous</button>
-									</div>
-									<div>
-										<button type="button" class="btn btn-success font-weight-bolder text-uppercase px-9 py-4" data-wizard-type="action-submit">Submit</button>
-										<button type="button" class="btn btn-primary font-weight-bolder text-uppercase px-9 py-4" data-wizard-type="action-next">Next</button>
-									</div>
-								</div>
-								<!--end::Wizard Actions-->
-							</form>
-							<!--end::Wizard Form-->
-						</div>
-					</div>
-					<!--end::Wizard Body-->
-				</div>
-				<!--end::Wizard-->
-			</div>
-			<!--end::Wizard-->
+
 		</div>
 	</div>
-	<!--end::Container-->
-</div>
-<!--end::Entry--
+	<!--end::Subheader-->
+	<!--begin::Entry-->
+	<div class="d-flex flex-column-fluid">
+		<!--begin::Container-->
+		<div class="container-fluid">
+			<!--begin::Card-->
+			<div class="card card-custom card-transparent">
+				<div class="card-body p-0">
+					<!--begin::Wizard-->
+					<div class="wizard wizard-4" id="kt_wizard" data-wizard-state="step-first" data-wizard-clickable="true">
+						<!--begin::Card-->
+						<div class="card card-custom card-shadowless rounded-top-0">
+							<!--begin::Body-->
+							<div class="card-body p-0">
+								<div class="row justify-content-center py-8 px-8 py-lg-15 px-lg-10">
+									<div class="col-xl-12 col-xxl-10">
+										<!--begin::Wizard Form-->
+										<form class="form" id="kt_form">
+											<div class="row justify-content-center">
+												<div class="col-xl-12">
+													<!--begin::Wizard Step 1-->
+													<div class="my-5 step" data-wizard-type="step-content" data-wizard-state="current">
+														<h5 class="text-dark font-weight-bold mb-10">Masukkan Data Pelanggan :</h5>
+														<!--begin::Group-->
+														<div class="form-group row">
+															<label class="col-xl-3 col-lg-3 col-form-label">NIK Pelanggan</label>
+															<div class="col-lg-9 col-xl-9">
+																<input class="form-control form-control-solid form-control-lg" name="nik"
+																oninput="JavaScript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" type="number" maxlength="16" value="" placeholder="Nomor Identitas Penduduk (Nomor KTP)" />
+															</div>
+														</div>
+														<!--end::Group-->
+														<!--begin::Group-->
+														<div class="form-group row">
+															<label class="col-xl-3 col-lg-3 col-form-label">Nama Pelanggan</label>
+															<div class="col-lg-9 col-xl-9">
+																<input class="form-control form-control-solid form-control-lg" name="nama_pelanggan" type="text" value="" placeholder="Nama Lengkap" />
+															</div>
+														</div>
+														<!--end::Group-->
+														<!--begin::Group-->
+														<div class="form-group row">
+															<label class="col-xl-3 col-lg-3 col-form-label">Alamat Lengkap</label>
+															<div class="col-lg-9 col-xl-9">
+																<input type="text" class="form-control form-control-solid form-control-lg" name="alamat" placeholder="Alamat Pelanggan" value="" />
+															<span class="form-text text-muted">Masukkan Alamat Lengkap Pelanggan</span>
+															</div>
+														</div>
+														<!--end::Group-->
+														<!--begin::Group-->
+														<div class="form-group row">
+															<label class="col-xl-3 col-lg-3 col-form-label">Nomor Telepon</label>
+															<div class="col-lg-9 col-xl-9">
+																<div class="input-group input-group-solid input-group-lg">
+																	<div class="input-group-prepend">
+																		<span class="input-group-text">
+																			<i class="la la-phone"></i>
+																		</span>
+																	</div>
+																	<input type="tel" class="form-control form-control-solid form-control-lg" name="phone" value="" placeholder="Nomor Telepon" />
+																</div>
+																<span class="form-text text-muted">Nomor Telepon Yang Dapat Dihubungi</span>
+															</div>
+														</div>
+														<!--end::Group-->
+														<!--begin::Group-->
+														<div class="form-group row">
+															<label class="col-xl-3 col-lg-3 col-form-label text-left">Upload KTP</label>
+															<div class="col-lg-9 col-xl-9">
+																<div class="image-input image-input-outline" id="kt_user_add_avatar">
+																	<div class="image-input-wrapper" style="background-image: url(<?= base_url()?>assets/theme/dist/assets/media/users/100_6.jpg)"></div>
+																	<label class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow" data-action="change" data-toggle="tooltip" title="" data-original-title="Change avatar">
+																		<i class="fa fa-pen icon-sm text-muted"></i>
+																		<input type="file" name="profile_avatar" accept=".png, .jpg, .jpeg" />
+																		<input type="hidden" name="profile_avatar_remove" />
+																	</label>
+																	<span class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow" data-action="cancel" data-toggle="tooltip" title="Cancel avatar">
+																		<i class="ki ki-bold-close icon-xs text-muted"></i>
+																	</span>
+																</div>
+															</div>
+														</div>
+														<!--end::Group-->
+													</div>
+													<!--end::Wizard Step 1-->
+													<!--begin::Wizard Step 2-->
+													<div class="my-5 step" data-wizard-type="step-content">
+														<h5 class="text-dark font-weight-bold mb-10 mt-5">Pilih Lokasi Yang Di Inginkan :</h5>
+														<!--begin::Group-->
+														<div class="form-group row">
+															<label class="col-form-label col-xl-3 col-lg-12">Tahap Lokasi</label>
+															<div class="col-lg-4 col-md-9 col-sm-12">
+																<select class="form-control select2" id="pilih_tahap" name="pilih_tahap">
+																	<option label="Label"></option>
+																	<option value="TL1">Tahap Lokasi 1</option>
+																	<option value="TL2">Tahap Lokasi 2</option>
+																	<option value="TL3">Tahap Lokasi 3</option>
+																	<option value="TL4">Tahap Lokasi 4</option>
+																	<option value="TL5">Tahap Lokasi 5</option>
+																	<option value="TL6">Tahap Lokasi 6</option>
+																	<option value="TL7">Tahap Lokasi 7</option>
+																	<option value="TL8">Tahap Lokasi 8</option>
+																	<option value="TL9">Tahap Lokasi 9</option>
+																	<option value="TL10">Tahap Lokasi 10</option>
+																</select>
+																<span class="form-text text-muted">Pilih Tahap Lokasi</span>
+															</div>
+														</div>
+														<!--end::Group-->
+														
+														<!--begin::Group-->
+														<div class="form-group row">
+															<label class="col-form-label col-xl-3 col-lg-3">Blok Kavling</label>
+															<div class="col-lg-4 col-md-9 col-sm-12">
+																<select class="form-control select2" id="pilih_blok" name="pilih_blok">
+																	<option label="Label"></option>
+																	<option value="BK1">Blok A</option>
+																	<option value="BK2">Blok B</option>
+																	<option value="BK3">Blok C</option>
+																	<option value="BK4">Blok D</option>
+																	<option value="BK5">Blok E</option>
+																	<option value="BK6">Blok F</option>
+																	<option value="BK7">Blok G</option>
+																	<option value="BK8">Blok H</option>
+																	<option value="BK9">Blok I</option>
+																	<option value="BK10">Blok J</option>
+																</select>
+																<span class="form-text text-muted">Pilih Blok Kavling</span>
+															</div>
+														</div>
+														<!--end::Group-->
+														<!--begin::Group-->
+														<div class="form-group row">
+															<label class="col-form-label col-xl-3 col-lg-3">Nomor Kavling</label>
+															<div class="col-lg-4 col-md-9 col-sm-12">
+																<select class="form-control select2" id="pilih_nomor" name="pilih_nomor">
+																	<option label="Label"></option>
+																	<option value="NK1">Nomor 1</option>
+																	<option value="NK2">Nomor 2</option>
+																	<option value="NK3">Nomor 3</option>
+																	<option value="NK4">Nomor 4</option>
+																	<option value="NK5">Nomor 5</option>
+																	<option value="NK6">Nomor 6</option>
+																	<option value="NK7">Nomor 7</option>
+																	<option value="NK8">Nomor 8</option>
+																	<option value="NK9">Nomor 9</option>
+																	<option value="NK10">Nomor 10</option>
+																</select>
+																<span class="form-text text-muted">Pilih Nomor Kavling</span>
+															</div>
+														</div>
+														<!--end::Group-->
+														<div class="separator separator-dashed my-10"></div>
+													</div>
+													<!--end::Wizard Step 2-->
+													<!--begin::Wizard Step 3-->
+													<div class="my-5 step" data-wizard-type="step-content">
+														<h5 class="mb-10 font-weight-bold text-dark">Setup Your Address</h5>
+														<!--begin::Group-->
+														<div class="form-group">
+															<label>Address Line 1</label>
+															<input type="text" class="form-control form-control-solid form-control-lg" name="address1" placeholder="Address Line 1" value="Address Line 1" />
+															<span class="form-text text-muted">Please enter your Address.</span>
+														</div>
+														<!--end::Group-->
+														<!--begin::Group-->
+														<div class="form-group">
+															<label>Address Line 2</label>
+															<input type="text" class="form-control form-control-solid form-control-lg" name="address2" placeholder="Address Line 2" value="Address Line 2" />
+															<span class="form-text text-muted">Please enter your Address.</span>
+														</div>
+														<!--begin::Row-->
+														<div class="row">
+															<div class="col-xl-6">
+																<!--begin::Group-->
+																<div class="form-group">
+																	<label>Postcode</label>
+																	<input type="text" class="form-control form-control-solid form-control-lg" name="postcode" placeholder="Postcode" value="3000" />
+																	<span class="form-text text-muted">Please enter your Postcode.</span>
+																</div>
+															</div>
+															<!--end::Group-->
+															<!--begin::Group-->
+															<div class="col-xl-6">
+																<div class="form-group">
+																	<label>City</label>
+																	<input type="text" class="form-control form-control-solid form-control-lg" name="city" placeholder="City" value="Melbourne" />
+																	<span class="form-text text-muted">Please enter your City.</span>
+																</div>
+															</div>
+															<!--end::Group-->
+														</div>
+														<!--end::Row-->
+														<!--begin::Row-->
+														<div class="row">
+															<div class="col-xl-6">
+																<!--begin::Group-->
+																<div class="form-group">
+																	<label>State</label>
+																	<input type="text" class="form-control form-control-solid form-control-lg" name="state" placeholder="State" value="VIC" />
+																	<span class="form-text text-muted">Please enter your State.</span>
+																</div>
+																<!--end::Group-->
+															</div>
+															<div class="col-xl-6">
+																<!--begin::Group-->
+																<div class="form-group">
+																	<label>Country</label>
+																	<select name="country" class="form-control form-control-solid form-control-lg">
+																		<option value="">Select</option>
+																		<option value="AF">Afghanistan</option>
+																		<option value="AX">Åland Islands</option>
+																		<option value="AL">Albania</option>
+																		<option value="DZ">Algeria</option>
+																		<option value="AS">American Samoa</option>
+																		<option value="AD">Andorra</option>
+																		<option value="AO">Angola</option>
+																		<option value="AI">Anguilla</option>
+																		<option value="AQ">Antarctica</option>
+																		<option value="AG">Antigua and Barbuda</option>
+																		<option value="AR">Argentina</option>
+																		<option value="AM">Armenia</option>
+																		<option value="AW">Aruba</option>
+																		<option value="AU" selected="selected">Australia</option>
+																		<option value="AT">Austria</option>
+																		<option value="AZ">Azerbaijan</option>
+																		<option value="BS">Bahamas</option>
+																		<option value="BH">Bahrain</option>
+																		<option value="BD">Bangladesh</option>
+																		<option value="BB">Barbados</option>
+																		<option value="BY">Belarus</option>
+																		<option value="BE">Belgium</option>
+																		<option value="BZ">Belize</option>
+																		<option value="BJ">Benin</option>
+																		<option value="BM">Bermuda</option>
+																		<option value="BT">Bhutan</option>
+																		<option value="BO">Bolivia, Plurinational State of</option>
+																		<option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+																		<option value="BA">Bosnia and Herzegovina</option>
+																		<option value="BW">Botswana</option>
+																		<option value="BV">Bouvet Island</option>
+																		<option value="BR">Brazil</option>
+																		<option value="IO">British Indian Ocean Territory</option>
+																		<option value="BN">Brunei Darussalam</option>
+																		<option value="BG">Bulgaria</option>
+																		<option value="BF">Burkina Faso</option>
+																		<option value="BI">Burundi</option>
+																		<option value="KH">Cambodia</option>
+																		<option value="CM">Cameroon</option>
+																		<option value="CA">Canada</option>
+																		<option value="CV">Cape Verde</option>
+																		<option value="KY">Cayman Islands</option>
+																		<option value="CF">Central African Republic</option>
+																		<option value="TD">Chad</option>
+																		<option value="CL">Chile</option>
+																		<option value="CN">China</option>
+																		<option value="CX">Christmas Island</option>
+																		<option value="CC">Cocos (Keeling) Islands</option>
+																		<option value="CO">Colombia</option>
+																		<option value="KM">Comoros</option>
+																		<option value="CG">Congo</option>
+																		<option value="CD">Congo, the Democratic Republic of the</option>
+																		<option value="CK">Cook Islands</option>
+																		<option value="CR">Costa Rica</option>
+																		<option value="CI">Côte d'Ivoire</option>
+																		<option value="HR">Croatia</option>
+																		<option value="CU">Cuba</option>
+																		<option value="CW">Curaçao</option>
+																		<option value="CY">Cyprus</option>
+																		<option value="CZ">Czech Republic</option>
+																		<option value="DK">Denmark</option>
+																		<option value="DJ">Djibouti</option>
+																		<option value="DM">Dominica</option>
+																		<option value="DO">Dominican Republic</option>
+																		<option value="EC">Ecuador</option>
+																		<option value="EG">Egypt</option>
+																		<option value="SV">El Salvador</option>
+																		<option value="GQ">Equatorial Guinea</option>
+																		<option value="ER">Eritrea</option>
+																		<option value="EE">Estonia</option>
+																		<option value="ET">Ethiopia</option>
+																		<option value="FK">Falkland Islands (Malvinas)</option>
+																		<option value="FO">Faroe Islands</option>
+																		<option value="FJ">Fiji</option>
+																		<option value="FI">Finland</option>
+																		<option value="FR">France</option>
+																		<option value="GF">French Guiana</option>
+																		<option value="PF">French Polynesia</option>
+																		<option value="TF">French Southern Territories</option>
+																		<option value="GA">Gabon</option>
+																		<option value="GM">Gambia</option>
+																		<option value="GE">Georgia</option>
+																		<option value="DE">Germany</option>
+																		<option value="GH">Ghana</option>
+																		<option value="GI">Gibraltar</option>
+																		<option value="GR">Greece</option>
+																		<option value="GL">Greenland</option>
+																		<option value="GD">Grenada</option>
+																		<option value="GP">Guadeloupe</option>
+																		<option value="GU">Guam</option>
+																		<option value="GT">Guatemala</option>
+																		<option value="GG">Guernsey</option>
+																		<option value="GN">Guinea</option>
+																		<option value="GW">Guinea-Bissau</option>
+																		<option value="GY">Guyana</option>
+																		<option value="HT">Haiti</option>
+																		<option value="HM">Heard Island and McDonald Islands</option>
+																		<option value="VA">Holy See (Vatican City State)</option>
+																		<option value="HN">Honduras</option>
+																		<option value="HK">Hong Kong</option>
+																		<option value="HU">Hungary</option>
+																		<option value="IS">Iceland</option>
+																		<option value="IN">India</option>
+																		<option value="ID">Indonesia</option>
+																		<option value="IR">Iran, Islamic Republic of</option>
+																		<option value="IQ">Iraq</option>
+																		<option value="IE">Ireland</option>
+																		<option value="IM">Isle of Man</option>
+																		<option value="IL">Israel</option>
+																		<option value="IT">Italy</option>
+																		<option value="JM">Jamaica</option>
+																		<option value="JP">Japan</option>
+																		<option value="JE">Jersey</option>
+																		<option value="JO">Jordan</option>
+																		<option value="KZ">Kazakhstan</option>
+																		<option value="KE">Kenya</option>
+																		<option value="KI">Kiribati</option>
+																		<option value="KP">Korea, Democratic People's Republic of</option>
+																		<option value="KR">Korea, Republic of</option>
+																		<option value="KW">Kuwait</option>
+																		<option value="KG">Kyrgyzstan</option>
+																		<option value="LA">Lao People's Democratic Republic</option>
+																		<option value="LV">Latvia</option>
+																		<option value="LB">Lebanon</option>
+																		<option value="LS">Lesotho</option>
+																		<option value="LR">Liberia</option>
+																		<option value="LY">Libya</option>
+																		<option value="LI">Liechtenstein</option>
+																		<option value="LT">Lithuania</option>
+																		<option value="LU">Luxembourg</option>
+																		<option value="MO">Macao</option>
+																		<option value="MK">Macedonia, the former Yugoslav Republic of</option>
+																		<option value="MG">Madagascar</option>
+																		<option value="MW">Malawi</option>
+																		<option value="MY">Malaysia</option>
+																		<option value="MV">Maldives</option>
+																		<option value="ML">Mali</option>
+																		<option value="MT">Malta</option>
+																		<option value="MH">Marshall Islands</option>
+																		<option value="MQ">Martinique</option>
+																		<option value="MR">Mauritania</option>
+																		<option value="MU">Mauritius</option>
+																		<option value="YT">Mayotte</option>
+																		<option value="MX">Mexico</option>
+																		<option value="FM">Micronesia, Federated States of</option>
+																		<option value="MD">Moldova, Republic of</option>
+																		<option value="MC">Monaco</option>
+																		<option value="MN">Mongolia</option>
+																		<option value="ME">Montenegro</option>
+																		<option value="MS">Montserrat</option>
+																		<option value="MA">Morocco</option>
+																		<option value="MZ">Mozambique</option>
+																		<option value="MM">Myanmar</option>
+																		<option value="NA">Namibia</option>
+																		<option value="NR">Nauru</option>
+																		<option value="NP">Nepal</option>
+																		<option value="NL">Netherlands</option>
+																		<option value="NC">New Caledonia</option>
+																		<option value="NZ">New Zealand</option>
+																		<option value="NI">Nicaragua</option>
+																		<option value="NE">Niger</option>
+																		<option value="NG">Nigeria</option>
+																		<option value="NU">Niue</option>
+																		<option value="NF">Norfolk Island</option>
+																		<option value="MP">Northern Mariana Islands</option>
+																		<option value="NO">Norway</option>
+																		<option value="OM">Oman</option>
+																		<option value="PK">Pakistan</option>
+																		<option value="PW">Palau</option>
+																		<option value="PS">Palestinian Territory, Occupied</option>
+																		<option value="PA">Panama</option>
+																		<option value="PG">Papua New Guinea</option>
+																		<option value="PY">Paraguay</option>
+																		<option value="PE">Peru</option>
+																		<option value="PH">Philippines</option>
+																		<option value="PN">Pitcairn</option>
+																		<option value="PL">Poland</option>
+																		<option value="PT">Portugal</option>
+																		<option value="PR">Puerto Rico</option>
+																		<option value="QA">Qatar</option>
+																		<option value="RE">Réunion</option>
+																		<option value="RO">Romania</option>
+																		<option value="RU">Russian Federation</option>
+																		<option value="RW">Rwanda</option>
+																		<option value="BL">Saint Barthélemy</option>
+																		<option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+																		<option value="KN">Saint Kitts and Nevis</option>
+																		<option value="LC">Saint Lucia</option>
+																		<option value="MF">Saint Martin (French part)</option>
+																		<option value="PM">Saint Pierre and Miquelon</option>
+																		<option value="VC">Saint Vincent and the Grenadines</option>
+																		<option value="WS">Samoa</option>
+																		<option value="SM">San Marino</option>
+																		<option value="ST">Sao Tome and Principe</option>
+																		<option value="SA">Saudi Arabia</option>
+																		<option value="SN">Senegal</option>
+																		<option value="RS">Serbia</option>
+																		<option value="SC">Seychelles</option>
+																		<option value="SL">Sierra Leone</option>
+																		<option value="SG">Singapore</option>
+																		<option value="SX">Sint Maarten (Dutch part)</option>
+																		<option value="SK">Slovakia</option>
+																		<option value="SI">Slovenia</option>
+																		<option value="SB">Solomon Islands</option>
+																		<option value="SO">Somalia</option>
+																		<option value="ZA">South Africa</option>
+																		<option value="GS">South Georgia and the South Sandwich Islands</option>
+																		<option value="SS">South Sudan</option>
+																		<option value="ES">Spain</option>
+																		<option value="LK">Sri Lanka</option>
+																		<option value="SD">Sudan</option>
+																		<option value="SR">Suriname</option>
+																		<option value="SJ">Svalbard and Jan Mayen</option>
+																		<option value="SZ">Swaziland</option>
+																		<option value="SE">Sweden</option>
+																		<option value="CH">Switzerland</option>
+																		<option value="SY">Syrian Arab Republic</option>
+																		<option value="TW">Taiwan, Province of China</option>
+																		<option value="TJ">Tajikistan</option>
+																		<option value="TZ">Tanzania, United Republic of</option>
+																		<option value="TH">Thailand</option>
+																		<option value="TL">Timor-Leste</option>
+																		<option value="TG">Togo</option>
+																		<option value="TK">Tokelau</option>
+																		<option value="TO">Tonga</option>
+																		<option value="TT">Trinidad and Tobago</option>
+																		<option value="TN">Tunisia</option>
+																		<option value="TR">Turkey</option>
+																		<option value="TM">Turkmenistan</option>
+																		<option value="TC">Turks and Caicos Islands</option>
+																		<option value="TV">Tuvalu</option>
+																		<option value="UG">Uganda</option>
+																		<option value="UA">Ukraine</option>
+																		<option value="AE">United Arab Emirates</option>
+																		<option value="GB">United Kingdom</option>
+																		<option value="US">United States</option>
+																		<option value="UM">United States Minor Outlying Islands</option>
+																		<option value="UY">Uruguay</option>
+																		<option value="UZ">Uzbekistan</option>
+																		<option value="VU">Vanuatu</option>
+																		<option value="VE">Venezuela, Bolivarian Republic of</option>
+																		<option value="VN">Viet Nam</option>
+																		<option value="VG">Virgin Islands, British</option>
+																		<option value="VI">Virgin Islands, U.S.</option>
+																		<option value="WF">Wallis and Futuna</option>
+																		<option value="EH">Western Sahara</option>
+																		<option value="YE">Yemen</option>
+																		<option value="ZM">Zambia</option>
+																		<option value="ZW">Zimbabwe</option>
+																	</select>
+																</div>
+																<!--end::Group-->
+															</div>
+														</div>
+													</div>
+													<!--end::Wizard Step 3-->
+													<!--begin::Wizard Step 4-->
+													<div class="my-5 step" data-wizard-type="step-content">
+														<h5 class="mb-10 font-weight-bold text-dark">Review your Details and Submit</h5>
+														<!--begin::Item-->
+														<div class="border-bottom mb-5 pb-5">
+															<div class="font-weight-bolder mb-3">Your Account Details:</div>
+															<div class="line-height-xl">John Wick
+															<br />Phone: +61412345678
+															<br />Email: johnwick@reeves.com</div>
+														</div>
+														<!--end::Item-->
+														<!--begin::Item-->
+														<div class="border-bottom mb-5 pb-5">
+															<div class="font-weight-bolder mb-3">Your Address Details:</div>
+															<div class="line-height-xl">Address Line 1
+															<br />Address Line 2
+															<br />Melbourne 3000, VIC, Australia</div>
+														</div>
+														<!--end::Item-->
+														<!--begin::Item-->
+														<div>
+															<div class="font-weight-bolder">Payment Details:</div>
+															<div class="line-height-xl">Card Number: xxxx xxxx xxxx 1111
+															<br />Card Name: John Wick
+															<br />Card Expiry: 01/21</div>
+														</div>
+														<!--end::Item-->
+													</div>
+													<!--end::Wizard Step 4-->
+													<!--begin::Wizard Actions-->
+													<div class="d-flex justify-content-between border-top pt-10 mt-15">
+														<div class="mr-2">
+															<button type="button" id="prev-step" class="btn btn-light-primary font-weight-bolder px-9 py-4" data-wizard-type="action-prev">Previous</button>
+														</div>
+														<div>
+															<button type="button" class="btn btn-success font-weight-bolder px-9 py-4" data-wizard-type="action-submit">Submit</button>
+															<button type="button" id="next-step" class="btn btn-primary font-weight-bolder px-9 py-4" data-wizard-type="action-next">Next</button>
+														</div>
+													</div>
+													<!--end::Wizard Actions-->
+												</div>
+											</div>
+										</form>
+										<!--end::Wizard Form-->
+									</div>
+								</div>
+							</div>
+							<!--end::Body-->
+						</div>
+						<!--end::Card-->
+					</div>
+					<!--end::Wizard-->
+				</div>
+			</div>
+			<!--end::Card-->
+		</div>
+		<!--end::Container-->
+	</div>
+	<!--end::Entry-->
